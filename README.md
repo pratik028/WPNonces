@@ -36,7 +36,7 @@ Is used for the automatic check on the `$_REQUEST` and is hooked into the `init`
 ## Tests
 To run the tests:
 
-1. Switch into the WPNonce directory
+1. Switch into the WPNonces directory
 2. run `composer install`,
 3. create a `phpunit.xml` (see the `phpunit.xml.dist` as example) and enter the database credentials to your database.
 3. run `phpunit`
