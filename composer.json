@@ -1,0 +1,25 @@
+{
+    "name": "pratik/wp-nonce",
+    "description": "Implementation of whole WordPress Nonces in an Object Oriented way.",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "pratik028",
+            "email": "pratikd186@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+            "php": ">=5.4.0"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require-dev": {
+        "inpsyde/wordpress-dev": "dev-master",
+        "inpsyde/wp-tests-starter": "dev-master"
+    }
+}
